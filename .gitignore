@@ -1,0 +1,63 @@
+# Arquivos e diretórios gerados pelo Go
+/bin/
+/pkg/
+/go.sum
+
+# Arquivos temporários do Go
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ambiente virtual (caso use Python ou outras linguagens no futuro)
+venv/
+env/
+.venv/
+
+# Arquivos de sistema operacional
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# IDEs e editores
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains (GoLand, IntelliJ, etc.)
+.idea/
+*.iml
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.bak
+
+# Dependências locais do Go
+vendor/
+
+# Arquivos binários gerados pelo Fyne
+fyne-cross/
+
+# Ignorar todos os arquivos exceto imagens .png e .webp
+# (Isso garante que apenas as imagens desejadas sejam incluídas)
+*
+!*.png
+!*.PNG
+!*.webp
+!README.md
+!go.mod
+!main.go
+!conversor/
+!gui/
+!utils/
+!.gitignore
