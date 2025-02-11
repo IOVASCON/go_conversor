@@ -50,7 +50,6 @@ fyne-cross/
 
 # Ignorar todos os arquivos exceto imagens .png e .webp
 # (Isso garante que apenas as imagens desejadas sejam incluídas)
-*
 
 !README.md
 !go.mod
