@@ -51,13 +51,8 @@ fyne-cross/
 # Ignorar todos os arquivos exceto imagens .png e .webp
 # (Isso garante que apenas as imagens desejadas sejam incluídas)
 *
-!*.png
-!*.PNG
-!*.webp
+
 !README.md
 !go.mod
 !main.go
-!conversor/
-!gui/
-!utils/
 !.gitignore
